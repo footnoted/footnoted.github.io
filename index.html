@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">if(window.location.protocol != 'https:') {location.href = location.href.replace("http://", "https://");}</script>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>پانویس</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" language="Javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.2.3/typeit.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="./mojo/icons/favicon.ico">
+        <link type="text/css" rel="stylesheet" media="screen" href="mojo/mojo.css" />
+        <script src="./mojo/mojo.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid ">
+            <div class="rsa supreme-container">
+                <div class="superstructure">
+                    <div class="marx"></div>
+                    <div class="middle" style="padding: 50px 0">
+                        <h2 class="bounceInDown animated" id='ahem'></h2>
+                        <div id="e4"></div>
+                    </div>
+                    <div class="hegel"></div>
+                </div>
+                <div class="superstructure">
+                    <div class="marx"></div>
+                    <div class="middle" style='text-align: center;'>
+                        <div style='margin: 10% auto' id='hospitality' class='nist'>
+                            <a href="#myModal" role="button" class="btn offer" data-toggle="modal">All yours!</a>
+                        </div>
+                    </div>
+                    <div class="hegel"></div>
+                </div>
+                <div class="superstructure">
+                    <div class="marx"></div>
+                    <div class="middle"></div>
+                    <div class="hegel"></div>
+                </div>
+                <div class="base"></div>
+            </div>
+        </div>
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog modal-sm vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header" style='border: none !important'>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3 id="myModalLabel" style='color:#E91E63'>ICT<sup>1</sup></h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row" style='margin: 0 auto'>
+                                <img class="img-responsive"  src='mojo/bub.jpg' />
+                            </div>
+                        </div>
+                        <div class="modal-footer" style='border: none !important; text-align: left;'>
+                            <p style='color:black' class='small'>1."Internet Cat Tax"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){$("#ahem").typeIt({startDelay:1e3,startDelete:!0,speed:700,lifeLike:!0,strings:"...",callback:function(){$("#e4").typeIt({strings:["..."],speed:100,autoStart:!1,callback:function(){$("#hospitality").removeClass("nist")}}).tiDelete().tiPause(100).tiBreak().tiType("Sorry...didn't expect to have company here...").tiBreak().tiPause(100).tiSettings({speed:100}).tiPause(500).tiType("So...can I offer yo").tiDelete().tiPause(500).tiType("Oh! here's an idea.").tiBreak().tiType('Would you like a <span id="yup">button</span> to press?').tiPause(70).tiSettings({speed:300})}}).tiDelete(1).tiType(".").tiDelete().tiType("hmm...ok").tiDelete().tiSettings({speed:100}).tiType("so...this is som").tiDelete().tiSettings({speed:200}).tiType("I mean, hi").tiSettings({speed:300}).tiDelete().tiType('<span id="yup">Hello!</span>')});
+</script>
+</html>
